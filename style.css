@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.urFace{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#section{
+    position: absolute; 
+    overflow: hidden; 
+    height: 800px; 
+    color: #FFFFFF;  
+    background: blue; 
+    display: table; 
+    width: 100%; 
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.TBL{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Bio{
+    padding: 50px;
+    font-size: 40px;
+}
+.lineee{
+    padding-top: 560px;
+    height: 6px;
+    background-color: black;
+    width: 1000px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px; 
+    margin: 25px auto; 
+    font-size: 17px; 
+    line-height: 1.3;
+}
+.parallax-inner{
+    display: table-cell; 
+    position: relative; 
+    text-align: center; 
+    vertical-align: middle;
+}
+u{
+    max-width: 450px; 
+    margin: 25px auto; 
+    font-size: 17px; 
+    line-height: 1.3;
+}
+.liiist{
+    float: left;
+    color: red;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.liiist:hover{
+    background-color: salmon;
+    font-size: 25px;
+    font-family: 'Zen Dots', cursive;;
+}
+.dalisttt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 10;
+    cursor: pointer;
+}
